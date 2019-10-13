@@ -19,5 +19,5 @@ for row in table.findAll('tr')[1:]:
 
 outfile = open("./inmates.csv", "w")
 writer = csv.writer(outfile)
-writer.writerow(["Last", "First", "Middle", "Gender", "Race", "Age", "City", "State"])
+writer.writerow(["Last", "First", "Middle", "Initials", "Gender", "Race", "Age", "City", "State"])
 writer.writerows(list_of_rows)
